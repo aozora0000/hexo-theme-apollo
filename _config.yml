@@ -7,6 +7,13 @@ menu:
 excerpt_link: Read More
 fancybox: true
 
+# Social
+social:
+  twitter: shimoju_
+  twitter_site: '@shimoju_'
+  twitter_card: summary
+  fb_app_id: '1567215990243383'
+
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
