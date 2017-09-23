@@ -3,13 +3,13 @@ Hexo theme: Apollo
 
 **This hexo theme is modified from SANOGRAPHIX.NET**
 
-[Original](https://github.com/sanographix/tumblr/tree/master/apollo) (Tumblr theme)  
+[Original](https://github.com/sanographix/tumblr/tree/master/apollo) (Tumblr theme)
 [Demo](http://joyceim.github.io/hexo-theme-apollo)
 
 
-##Installation
+## Installation
 
-###Install
+### Install
 
 Run this command from inside your hexo project
 ``` bash
@@ -18,20 +18,20 @@ $ git clone https://github.com/joyceim/hexo-theme-apollo.git themes/apollo
 
 **Apollo requires Hexo 2.4 and above.**
 
-###Update
+### Update
 
 ``` bash
 cd themes/apollo
 git pull
 ```
 
-##Configuration
+## Configuration
 
 ``` yml
 # Header
 menu:
-    Home: /
-    Archives: /archives
+  Home: /
+  Archives: /archives
 rss: /atom.xml
 
 # Content
