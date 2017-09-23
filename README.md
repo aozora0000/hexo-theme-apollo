@@ -32,7 +32,6 @@ git pull
 menu:
   Home: /
   Archives: /archives
-rss: /atom.xml
 
 # Content
 excerpt_link: Read More
@@ -44,7 +43,6 @@ favicon: /favicon.png
 ```
 
 - **menu** - Navigation menu
-- **rss** - RSS link
 - **excerpt_link** - "Read More" link at the bottom of excerpted articles. `false` to hide the link.
 - **fancybox** - Enable [Fancybox](http://fancyapps.com/fancybox/)
 - **google_analytics** - Google Analytics ID
