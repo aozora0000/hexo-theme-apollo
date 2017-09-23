@@ -24,7 +24,7 @@
   <%- open_graph({twitter_card: theme.social.twitter_card, twitter_id: theme.social.twitter, twitter_site: theme.social.twitter_site,
   google_plus: theme.social.google_plus, fb_admins: theme.social.fb_admins, fb_app_id: theme.social.fb_app_id}) %>
   <% if (config.feed){ %>
-    <link rel="alternative" href="/<%- config.feed.path %>" title="<%= config.title %>" type="application/atom+xml">
+    <link rel="alternate" href="/<%- config.feed.path %>" title="<%= config.title %>" type="application/atom+xml">
   <% } %>
   <% if (theme.favicon){ %>
     <link rel="icon" href="<%- theme.favicon %>">
