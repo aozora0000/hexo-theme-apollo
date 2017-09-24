@@ -30,6 +30,9 @@
 	</div>
 	<footer class="entry-footer">
 		<div class="hatena-star"></div>
+		<div class="share-buttons">
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="<%- config.url %><%- config.root %><%- post.path %>" data-text="<%= post.title %> - <%= config.title %>">Tweet</a>
+		</div>
 		<div class="entry-meta-footer">
 			<span class="category">
 				<%- partial('post/category') %>
