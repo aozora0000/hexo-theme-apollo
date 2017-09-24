@@ -19,7 +19,7 @@
     title = 'Tag: ' + page.tag;
   }
   %>
-  <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+  <title><% if (title){ %><%= title %> - <% } %><%= config.title %></title>
   <meta name="viewport" content="width=device-width">
   <%- open_graph({twitter_card: theme.social.twitter_card, twitter_id: theme.social.twitter, twitter_site: theme.social.twitter_site,
   google_plus: theme.social.google_plus, fb_admins: theme.social.fb_admins, fb_app_id: theme.social.fb_app_id}) %>
