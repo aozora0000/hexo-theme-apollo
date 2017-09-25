@@ -18,10 +18,13 @@
   } else if (is_tag()){
     title = 'Tag: ' + page.tag;
   }
+
+  var canonicalUrl = config.url + config.root + page.canonical_path.replace('index.html', '')
   %>
   <title><% if (title){ %><%= title %> - <% } %><%= config.title %></title>
   <meta name="viewport" content="width=device-width">
-  <%- open_graph({twitter_card: theme.social.twitter_card, twitter_id: theme.social.twitter, twitter_site: theme.social.twitter_site,
+  <link rel="canonical" href="<%- canonicalUrl %>">
+  <%- open_graph({url: canonicalUrl, twitter_card: theme.social.twitter_card, twitter_id: theme.social.twitter, twitter_site: theme.social.twitter_site,
   google_plus: theme.social.google_plus, fb_admins: theme.social.fb_admins, fb_app_id: theme.social.fb_app_id}) %>
   <% if (config.feed){ %>
     <link rel="alternate" href="/<%- config.feed.path %>" title="<%= config.title %>" type="application/atom+xml">
