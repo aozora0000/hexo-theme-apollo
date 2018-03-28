@@ -9,11 +9,9 @@ fancybox: true
 
 # Social
 social:
-  twitter: shimoju_
-  twitter_site: '@shimoju_'
+  twitter: aozora0000
+  twitter_site: '@aozora0000'
   twitter_card: summary
-  fb_app_id: '1567215990243383'
-
+  
 # Miscellaneous
-google_analytics: UA-77122122-1
 favicon: /favicon.ico
